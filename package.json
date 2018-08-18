@@ -2,7 +2,11 @@
   "name": "conv-csv",
   "description": "Scrape a table from a url, convert to CSV and save file.",
   "keywords": [
-    "node", "convert", "CSV", "html", "scraping"
+    "node",
+    "convert",
+    "CSV",
+    "html",
+    "scraping"
   ],
   "repository": {
     "url": "https://github.com/Pansaai/convJS",
@@ -21,5 +25,8 @@
     "request-promise": "^4.2.2",
     "yargs": "^12.0.1"
   },
-  "author": "Thomas Pans <pans.thomas@gmail.com>"
+  "author": "Thomas Pans <pans.thomas@gmail.com>",
+  "bin": {
+    "conv-csv": "bin/conv-csv.js"
+  }
 }
