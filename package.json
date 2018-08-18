@@ -1,16 +1,25 @@
 {
-  "name": "convjs",
+  "name": "conv-csv",
+  "description": "Scrape a table from a url, convert to CSV and save file.",
+  "keywords": [
+    "node", "convert", "CSV", "html", "scraping"
+  ],
+  "repository": {
+    "url": "https://github.com/Pansaai/convJS",
+    "type": "git"
+  },
+  "bugs": "https://github.com/Pansaai/convJS/issues",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "conv": "node index.js conv"
+    "start": "node ./lib/index.js conv"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
-    "xlsx": "^0.13.3",
     "yargs": "^12.0.1"
-  }
+  },
+  "author": "Thomas Pans <pans.thomas@gmail.com>"
 }
