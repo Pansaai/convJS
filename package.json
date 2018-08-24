@@ -17,7 +17,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node ./lib/index.js conv"
+    "start": "node ./lib/index.js conv",
+    "test": ""
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
